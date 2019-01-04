@@ -17,7 +17,6 @@ jobs:
           command: |
             echo "Installing dependencies and building..."
             cd website && yarn install && yarn build
-
             echo "Deploying to Surge.sh..."
             surge --project build/today-i-learned/ --domain teach.rakinu.com
 

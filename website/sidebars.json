@@ -1,0 +1,84 @@
+{
+  "docs": {
+    "Principles of Programming Languages": [
+      "cscc24/doc3",
+      "cscc24/doc4"
+    ],
+    "Introduction to Databases": [
+      {
+        "type": "subcategory",
+        "label": "Week 3",
+        "ids": [
+          "cscc43/c43_f18w3"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 4",
+        "ids": [
+          "cscc43/c43_f18w4",
+          "cscc43/c43_f18w4s"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 5",
+        "ids": [
+          "cscc43/c43_f18w5",
+          "cscc43/c43_f18w5s"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 6",
+        "ids": [
+          "cscc43/c43_f18w6",
+          "cscc43/c43_f18w6s"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 7",
+        "ids": [
+          "cscc43/c43_f18w7",
+          "cscc43/c43_f18w7s"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 8",
+        "ids": [
+          "cscc43/c43_f18w8"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 9",
+        "ids": [
+          "cscc43/c43_f18w9"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 10",
+        "ids": [
+          "cscc43/c43_f18w10"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 11",
+        "ids": [
+          "cscc43/c43_f18w11"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 12",
+        "ids": [
+          "cscc43/c43_f18w12"
+        ]
+      }
+    ]
+  }
+}

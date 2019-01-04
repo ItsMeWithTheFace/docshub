@@ -1,4 +1,4 @@
-# Today I Learned... ![Logo](website/static/img/book_icon.svg)
+# Today I Learned... <br/><br/> ![Logo](website/static/img/favicon_big.png)
 # [![CircleCI](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master.svg?style=svg)](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master)
 Tutorial document store for students
 

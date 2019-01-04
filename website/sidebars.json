@@ -1,5 +1,8 @@
 {
   "docs": {
+    "Getting Started": [
+      "intro"
+    ],
     "Principles of Programming Languages": [
       "cscc24/doc3",
       "cscc24/doc4"

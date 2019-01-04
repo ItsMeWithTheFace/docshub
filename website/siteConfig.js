@@ -8,46 +8,27 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-// List of projects/orgs using your project for the users page.
-// const users = [
-//   {
-//     caption: 'User1',
-//     // You will need to prepend the image path with your baseUrl
-//     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-//     image: '/img/docusaurus.svg',
-//     infoLink: 'https://www.facebook.com',
-//     pinned: true,
-//   },
-// ];
-
 const siteConfig = {
   title: 'TIL', // Title for your website.
   tagline: 'Today I Learned...',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   cname: 'teach.rakinu.com',
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
+  baseUrl: '/', // Base URL for project */
 
   // Used for publishing and more
   projectName: 'today-i-learned',
   organizationName: 'RakinUddin',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'cscc43/c43_f18w3', label: 'Docs'},
+    {doc: 'intro', label: 'Docs'},
     {doc: 'cscc43/c43_f18w4', label: 'Contact'},
-    {doc: 'cscc24/doc3', label: 'Feedback'},
-    {doc: 'cscc24/doc4', label: 'Contribute'},
+    {href: 'https://rakinuddin.typeform.com/to/jvhlzN', label: 'Feedback'},
+    {href: 'https://github.com/ItsMeWithTheFace/til', label: 'Contribute'},
     {search: true}
   ],
-
-  // If you have users set above, you add it here:
-  // users,
+  
+  editUrl: 'https://github.com/ItsMeWithTheFace/til/edit/master/docs/',
 
   // adding algolia search
   algolia: {
@@ -58,14 +39,14 @@ const siteConfig = {
   },
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/book_icon.svg',
+  footerIcon: 'img/book_icon.svg',
+  favicon: 'img/favicon/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#237699',
+    secondaryColor: '#05435a',
   },
 
   /* Custom fonts for website */

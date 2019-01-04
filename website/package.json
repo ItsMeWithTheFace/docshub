@@ -12,6 +12,7 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.6.2"
+    "docusaurus": "^1.6.2",
+    "surge": "^0.20.1"
   }
 }

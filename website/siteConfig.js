@@ -9,9 +9,9 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'TIL', // Title for your website.
-  tagline: 'Today I Learned...',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'TIL',
+  tagline: '📚 Easy access to course notes',
+  url: 'https://your-docusaurus-test-site.com',
   cname: 'teach.rakinu.com',
   baseUrl: '/', // Base URL for project */
 
@@ -22,7 +22,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'intro', label: 'Docs'},
-    {doc: 'cscc43/c43_f18w4', label: 'Contact'},
+    {page: 'contact', label: 'Contact'},
     {href: 'https://rakinuddin.typeform.com/to/jvhlzN', label: 'Feedback'},
     {href: 'https://github.com/ItsMeWithTheFace/til', label: 'Contribute'},
     {search: true}
@@ -68,7 +68,7 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'solarized-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -80,8 +80,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/book_icon.png',
+  twitterImage: 'img/book_icon.png',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -91,7 +91,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/ItsMeWithTheFace/til',
 };
 
 module.exports = siteConfig;

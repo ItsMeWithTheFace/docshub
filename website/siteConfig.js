@@ -11,7 +11,7 @@
 const siteConfig = {
   title: 'TIL',
   tagline: '📚 Easy access to course notes',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://teach.rakinu.com',
   cname: 'teach.rakinu.com',
   baseUrl: '/', // Base URL for project */
 

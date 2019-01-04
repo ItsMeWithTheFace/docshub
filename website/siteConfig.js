@@ -51,8 +51,8 @@ const siteConfig = {
 
   // adding algolia search
   algolia: {
-    apiKey: '7bc0aa641b1c567ef1fe6b671418e1d8',
-    indexName: 'dev_SEARCH_TIL',
+    apiKey: `${process.env.REACT_APP_ALGOLIA_API_KEY}`,
+    indexName: `${process.env.REACT_APP_ALGOLIA_INDEX_NAME}`,
     placeholder: 'Search this site...',
     algoliaOptions: {}
   },

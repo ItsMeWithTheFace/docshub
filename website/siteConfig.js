@@ -24,19 +24,10 @@ const siteConfig = {
     {doc: 'intro', label: 'Docs'},
     {page: 'contact', label: 'Contact'},
     {href: 'https://rakinuddin.typeform.com/to/jvhlzN', label: 'Feedback'},
-    {href: 'https://github.com/ItsMeWithTheFace/til', label: 'Contribute'},
-    {search: true}
+    {href: 'https://github.com/ItsMeWithTheFace/til', label: 'Contribute'}
   ],
   
   editUrl: 'https://github.com/ItsMeWithTheFace/til/edit/master/docs/',
-
-  // adding algolia search
-  algolia: {
-    apiKey: `${process.env.REACT_APP_ALGOLIA_API_KEY}`,
-    indexName: `${process.env.REACT_APP_ALGOLIA_INDEX_NAME}`,
-    placeholder: 'Search this site...',
-    algoliaOptions: {}
-  },
 
   /* path to images for header/footer */
   headerIcon: 'img/book_icon.svg',
@@ -49,26 +40,15 @@ const siteConfig = {
     secondaryColor: '#05435a',
   },
 
-  /* Custom fonts for website */
-  /*
-  fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },
-  */
+  /* Google Analytics Tracking */
+  gaTrackingId: `${process.env.REACT_APP_GOOGLE_ANALYTICS_KEY}`,
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Rakin Uddin`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'solarized-dark',
+    theme: 'solarized-dark'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -88,6 +68,8 @@ const siteConfig = {
 
   // Show documentation's last update time.
   enableUpdateTime: true,
+
+  scrollToTop: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

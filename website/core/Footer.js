@@ -60,6 +60,12 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Piazza (C43)
             </a>
+            <a
+              href="https://q.utoronto.ca"
+              target="_blank"
+              rel="noreferrer noopener">
+              Quercus  
+            </a>
           </div>
           <div>
             <h5>More</h5>

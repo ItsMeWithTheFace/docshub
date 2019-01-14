@@ -49,16 +49,10 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a
-              href="https://piazza.com/class/jlfdrcrpx4d8w/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Piazza (C24)
-            </a>
-            <a
               href="https://piazza.com/"
               target="_blank"
               rel="noreferrer noopener">
-              Piazza (C43)
+              Piazza
             </a>
             <a
               href="https://q.utoronto.ca"

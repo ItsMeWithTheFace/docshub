@@ -4,6 +4,13 @@
       "intro"
     ],
     "Principles of Programming Languages": [
+      {
+        "type": "subcategory",
+        "label": "Week 3",
+        "ids": [
+          "cscc24/c24_w19w3"
+        ]
+      }
     ],
     "Introduction to Databases": [
       {

@@ -39,7 +39,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('intro', this.props.language)}>
               Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
+            <a href={this.docUrl('cscc24/c24_w19w3', this.props.language)}>
               Principles of Programming Languages (C24)
             </a>
             <a href={this.docUrl('cscc43/c43_f18w3', this.props.language)}>

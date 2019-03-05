@@ -1,5 +1,9 @@
-# Today I Learned... <br/><br/> ![Logo](website/static/img/favicon_big.png)
-# [![CircleCI](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master.svg?style=svg)](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master)
+<p align="center"><img src="website/static/img/favicon_big.png" /></p>
+
+# Today I Learned...
+
+[![CircleCI](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master.svg?style=shield)](https://circleci.com/gh/ItsMeWithTheFace/til/tree/master)
+
 Tutorial document store for students
 
 ## Development
@@ -13,12 +17,18 @@ To build the project locally perform the following steps:
    ```bash
    git clone https://github.com/ItsMeWithTheFace/til.git
    ```
-2. Go into `website/` and install the dependencies
+2. Add your environment variables into a `.env` file
+   ```bash
+   # the .env.example file contains the necessary variables for the app
+   # you'll need to change the dummy values to your own ones
+   cp .env.example .env
+   ```
+3. Go into `website/` and install the dependencies
    ```bash
    cd website/
    yarn install
    ```
-3. Run the project
+4. Run the project
    ```bash
    yarn start
    ```

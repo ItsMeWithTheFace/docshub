@@ -10,6 +10,13 @@
         "ids": [
           "cscc24/c24_w19w3"
         ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Week 8",
+        "ids": [
+          "cscc24/c24_w19w8"
+        ]
       }
     ],
     "Introduction to Databases": [

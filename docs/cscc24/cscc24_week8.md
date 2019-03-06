@@ -53,5 +53,5 @@ instance Monad Turtles where
   Last a >>= k = k a
 
   -- for a Turtle type, pass its internal value (a Last or Turtle) into k
-  Turtle a >>= k = Turtle (k a)
+  Turtle a >>= k = Turtle (a >>= k)
 ```

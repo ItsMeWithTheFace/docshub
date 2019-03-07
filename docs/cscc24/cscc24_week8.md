@@ -55,3 +55,5 @@ instance Monad Turtles where
   -- for a Turtle type, pass its internal value (a Last or Turtle) into k
   Turtle a >>= k = Turtle (a >>= k)
 ```
+
+For more information, this StackOverflow [post](https://stackoverflow.com/questions/44965/what-is-a-monad) provides a great description.

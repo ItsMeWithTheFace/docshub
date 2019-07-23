@@ -13,17 +13,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
-          command: cd website && yarn install
-      - run:
-          name: Build project
-          command: yarn build
+          name: Install dependencies and build project
+          command: cd website && yarn install && yarn build
       - run:
           name: Deploy to Surge.sh
           command: |
             export PATH="$PATH:$(yarn global bin)"
             yarn global add surge
-            surge --project build/today-i-learned/ --domain teach.uddin.io
+            surge --project website/build/today-i-learned/ --domain teach.uddin.io
 
 workflows:
   version: 2
